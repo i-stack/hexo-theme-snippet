@@ -20,15 +20,15 @@ menu:
 #  - page: 薅羊毛
 #    url: /categories/薅羊毛/
 #    icon:
-#  - page: 历史上的今天
-#    url: /categories/历史上的今天/
-#    icon:
   - page: 技术教程
     url: /categories/技术教程/
     icon:
   - page: 时间轴
     url: /archives/
     icon:
+#  - page: Chat
+#    url: /chatbot/
+#    icon:
 
 ## favicon
 favicon: /favicon.ico
@@ -82,10 +82,10 @@ social:
     href: mailto:672030963@qq.com
   - name: 联系QQ
     icon: qq
-    href: /
+    href: //freelibrary.top/img/qqQR.jpeg
   - name: 微信
     icon: weixin
-    href: i-stack
+    href: //freelibrary.top/img/wechatQR.jpeg
 #  - name: QQ群
 #    icon: users
 #    href: /
@@ -120,6 +120,7 @@ tagcloud:
 ## 友链设置
 links:
   - 商城淘券儿: https://www.myyhq.top
+#  - 在线留言: http://f6x.cn/r4HLZ
 
 # 主题自定义个性化配置
 
@@ -256,12 +257,12 @@ google_analytics:
 tencent_analytics:
 
 ### 百度站点认证
-baidu_site_verification: codeva-7tnz9mgYod
+baidu_site_verification:
 
 ### 百度自动推送
-baidu_push: true
+baidu_push: false
 
-#网站主题配置
+# 网站主题配置
 since: 2020
 beian: '豫ICP备2022028466号'
 robot: "all" ### 控制搜索引擎的抓取和索引编制行为，默认为all

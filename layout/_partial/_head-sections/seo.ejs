@@ -1,14 +1,16 @@
 <!--SEO-->
 <% if(page.keywords){ %>
-<meta name="keywords" content="{{ page.keywords }}" />
+<meta name="keywords" content="<%= page.keywords%>" />
 <% } else if(page.tags && page.tags.length) { %>
 <meta name="keywords" content="<% page.tags.forEach(function (item,index) { %><%= item.name%><% if(index + 1 != page.tags.length){%>,<%}%><% }) %>" />
-<% } else{ %>
+<% } else { %>
 <meta name="keywords" content="<%= config.keywords%>" />
 <%}%>
-<% if(page.content){ %>
+<% if(page.description){ %>
+<meta name="description" content="<%= page.description %>" />
+<% } else if(page.content) { %>
 <meta name="description" content="<%- truncate(strip_html(page.content), {length: 100 }) %>" />
-<% } else{ %>
+<% } else { %>
 <meta name="description" content="<%= config.description%>" />
 <%}%>
 <% var robotMeta = theme.robot||'all'; %>
