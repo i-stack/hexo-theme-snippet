@@ -14,20 +14,53 @@ menu:
   - page: 商业案例
     url: /categories/商业案例/
     icon:
-#  - page: 项目分享
-#    url: /categories/项目分享/
-#    icon:
-#  - page: 薅羊毛
-#    url: /categories/薅羊毛/
-#    icon:
   - page: 技术教程
     url: /categories/技术教程/
     icon:
   - page: 时间轴
     url: /archives/
     icon:
-#  - page: Chat
-#    url: /chatbot/
+#  - page: 项目分享
+#    url: /categories/项目分享/
+#    icon:
+#  - page: 薅羊毛
+#    url: /categories/薅羊毛/
+#    icon:
+#  - page: Blog1
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog2
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog3
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog3
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog4
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog5
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog6
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog7
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog8
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog9
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog10
+#    url: /categories/技术教程/
+#    icon:
+#  - page: Blog11
+#    url: /categories/技术教程/
 #    icon:
 
 ## favicon
@@ -38,7 +71,7 @@ rss: /atom.xml
 
 ## Carousel
 carousel:
-  img: "./img/head-img.jpg"
+  img: #"./img/head-img.jpg"
   url: "https://www.myyhq.top"
 
 # 各个小工具的设置
@@ -129,7 +162,7 @@ branding:
 
 ## 设置banner背景图片
 banner:
-  img: https://hexo-theme-snippet-1251680922.cos.ap-beijing.myqcloud.com/img/banner.jpg
+  img: /images/bg_image.jpg #https://hexo-theme-snippet-1251680922.cos.ap-beijing.myqcloud.com/img/banner.jpg
 
 ## 首页列表底部面板
 homePanel: true
